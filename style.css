@@ -19,13 +19,16 @@ body{
 	margin: 0 auto;
 	
 }
-.specially-for-relation{
-	position: relative;
+
+
+.header-bg{
+	background: url(img/Michelangelo_Buonarroti.jpg);
+	background-repeat: no-repeat;
+
 }
 
 
 .header__inner{
-	z-index: 2;
 	display: flex;
 	justify-content: space-between;
 	color:  #fff;
@@ -45,16 +48,10 @@ body{
 }
 
 
-.menu{
-
-	}
-
 .red-rectangle{
-	position: absolute;
-	z-index: 2;
 	color:  #fff;
 	height: 160px;
-	width: 1268px;
+	width: 1368px;
 	background: rgba(153, 5, 5, 0.33);
 	margin-top: 188px;
 	display: flex;
@@ -67,14 +64,12 @@ body{
 	font-weight: 400;
 	line-height: 80px;
 	text-align: left;
-	padding-right: 150px;
+	padding-right: 50px;
 }
 
 .age{
-	position: absolute;
-	z-index: 2;
-	margin-left: 771px;
-	margin-top: 348px;
+	
+	margin-left: 960px;
 	font-size: 30px;
 	font-weight: 400;
 	text-align: left;
@@ -84,12 +79,11 @@ body{
 
 
 .logos{
-	position: absolute;
-	z-index: 2;
 	display: flex;
 	justify-content: end;
-	margin-top: 686px;
-	margin-left: 1151px;
+	margin-right: 110px;
+	padding-bottom: 20px;
+	margin-top: 318px;
 }
 
 
@@ -307,7 +301,8 @@ body{
 }
 
 .view-more{
-	margin: 544px 647px 100px;
+	
+	margin: 544px 640px 100px;
 	
 	font-size: 30px;
 	font-weight: 400;
@@ -328,7 +323,7 @@ body{
 }
 
 
-.fourth-slide__title{s
+.fourth-slide__title{
 	padding-top: 100px;
 	padding-bottom: 85px;
 	text-align: center;
